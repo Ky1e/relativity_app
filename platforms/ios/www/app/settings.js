@@ -117,7 +117,7 @@ drupalgap.settings.locale = {
 drupalgap.settings.title = 'Relativity';
  
 // App Front Page
-drupalgap.settings.front = 'dashboard';
+drupalgap.settings.front = 'front_page';
 
 // Theme
 drupalgap.settings.theme = 'relativity';
@@ -257,38 +257,6 @@ drupalgap.settings.menus['main_menu'] = {
  * Blocks - http://drupalgap.org/node/83 |
  ****************************************/
 drupalgap.settings.blocks = {}; // Do not remove this line.
-
-// Easy Street 3 Theme Blocks
-drupalgap.settings.blocks.easystreet3 = {
-  header: {
-    user_menu_anonymous: {
-      roles: {
-        value: ['anonymous user'],
-        mode: 'include',
-      }
-    },
-    user_menu_authenticated: {
-      roles: {
-        value: ['authenticated user'],
-        mode: 'include',
-      }
-    },
-    main_menu: { }
-  },
-  sub_header: {
-    title: { }
-  },
-  navigation: {
-    primary_local_tasks: { }
-  },
-  content: {
-    messages: { },
-    main: { }
-  },
-  footer: {
-    powered_by: { }
-  }
-};
 
 // The relativity_theme blocks.
 drupalgap.settings.blocks.relativity = {

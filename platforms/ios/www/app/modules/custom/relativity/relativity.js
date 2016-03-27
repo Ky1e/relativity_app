@@ -3,17 +3,27 @@
  */
 
 /**
- * Implements hook_install().
+ * Implements hook_menu() to create the front page of the app.
  */
-function my_module_install() {
+function relativity_menu() {
   try {
-    var css = drupalgap_get_path('module', 'relativity') + '/relativity.css';
-    drupalgap_add_css(css);
+    var items = {};
+    items['front_page'] = {
+      title: 'Relativity Mobile',
+      page_callback: 'relativity_front_page'
+    };
+    return items;
   }
-  catch (error) { console.log('relativity_install - ' + error); }
+  catch (error) { console.log('relativity_menu - ' + error); }
 }
 
-/**
- * Implements hook_menu().
- */
-
+function relativity_front_page() {
+  try {
+    var content = {};
+    content['my_intro_text'] = {
+      markup: '<p>Welcome to Relativity Mobile!</p>'
+    };
+    return content;
+  }
+  catch (error) { console.log('relativity_front_page - ' + error); }
+}
