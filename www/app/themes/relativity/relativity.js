@@ -21,7 +21,7 @@ function relativity_info() {
     attributes: {
       'data-role': 'header',
       'data-position': 'fixed',
-      'data-theme': 'b'
+      'data-theme': 'a'
     }
   };
 
@@ -44,7 +44,7 @@ function relativity_info() {
     attributes: {
       'data-role': 'footer',
       'data-position': 'fixed',
-      'data-position': 'b'
+      'data-position': 'a'
     }
   };
 
