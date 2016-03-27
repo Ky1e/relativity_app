@@ -299,6 +299,7 @@ drupalgap.settings.menus.regions['header'] = {
       options: {
         attributes: {
           'data-icon': 'home',
+          'data-iconpos': 'notext',
           'class': 'ui-btn-left'
         }
       },
@@ -348,6 +349,7 @@ drupalgap.settings.menus.regions['footer'] = {
       options: {
         attributes: {
           'data-icon': 'back',
+          'data-iconpos': 'notext',
           'class': 'ui-btn-right',
           'onclick': 'javascript:drupalgap_back();'
         }
