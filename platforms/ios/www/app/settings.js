@@ -117,7 +117,7 @@ drupalgap.settings.locale = {
 drupalgap.settings.title = 'Relativity';
  
 // App Front Page
-drupalgap.settings.front = 'dashboard';
+drupalgap.settings.front = 'front_page';
 
 // Theme
 drupalgap.settings.theme = 'relativity';
@@ -263,6 +263,9 @@ drupalgap.settings.blocks.relativity = {
   header: {
     title: {}
   },
+  sub_header: {
+    user_menu_anonymous: {}
+  },
   navigation: {
     main_menu: {}
   },
@@ -299,7 +302,6 @@ drupalgap.settings.menus.regions['header'] = {
       options: {
         attributes: {
           'data-icon': 'home',
-          'data-iconpos': 'notext',
           'class': 'ui-btn-left'
         }
       },
@@ -349,7 +351,6 @@ drupalgap.settings.menus.regions['footer'] = {
       options: {
         attributes: {
           'data-icon': 'back',
-          'data-iconpos': 'notext',
           'class': 'ui-btn-right',
           'onclick': 'javascript:drupalgap_back();'
         }
