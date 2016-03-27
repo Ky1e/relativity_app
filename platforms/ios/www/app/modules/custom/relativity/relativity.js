@@ -21,7 +21,7 @@ function relativity_front_page() {
   try {
     var content = {};
     content['my_intro_text'] = {
-      markup: '<p>Welcome to Relativity Mobile!</p>'
+      markup: 'Welcome to Relativity Mobile!'
     };
     return content;
   }

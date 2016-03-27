@@ -117,7 +117,7 @@ drupalgap.settings.locale = {
 drupalgap.settings.title = 'Relativity';
  
 // App Front Page
-drupalgap.settings.front = 'front_page';
+drupalgap.settings.front = 'dashboard';
 
 // Theme
 drupalgap.settings.theme = 'relativity';

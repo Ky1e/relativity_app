@@ -21,7 +21,14 @@ function relativity_info() {
     attributes: {
       'data-role': 'header',
       'data-position': 'fixed',
-      'data-theme': 'a'
+      'data-theme': 'b'
+    }
+  };
+  
+  // Sub header region.
+  theme.regions['sub_header'] = {
+    attributes: {
+      'data-role': 'header',
     }
   };
 
@@ -44,7 +51,7 @@ function relativity_info() {
     attributes: {
       'data-role': 'footer',
       'data-position': 'fixed',
-      'data-position': 'a'
+      'data-position': 'b'
     }
   };
 
