@@ -22,27 +22,6 @@
 !sites/all/modules/custom/mobile-application/drupalgap-app.zip
 *.tgz
 
-# Unused documentation #
-documentation/01_Install
-documentation/03_Developer_Guide
-documentation/04_Modules
-documentation/05_Themes
-documentation/06_Regions
-documentation/07_Blocks
-documentation/08_Menus
-documentation/09_Pages
-documentation/12_Entities
-documentation/13_Forms
-documentation/14_Views
-documentation/15_Images
-documentation/16_Hooks
-documentation/17_Services
-documentation/18_Geo_Location
-documentation/19_Compiling_a_Mobile_Application
-documentation/20_Resources
-documentation/21_Translate
-documentation/22_Drupal_8
-
 # Logs and databases #
 ######################
 *.log

@@ -12,7 +12,7 @@ content['my_view'] = { /* ... */ };
 return content;
 ```
 
-If you're planning on building a form, visit the [Forms docs](Forms) to learn about the creation, validation and submission of forms using DrupalGap.
+If you're planning on building a form, visit the [Forms docs](/documentation/13_Forms/index.md) to learn about the creation, validation and submission of forms using your mobile app.
 
 Below are screen shots of various supported widgets. To see example code for a particular widget, click on its screenshot.
 
