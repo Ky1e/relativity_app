@@ -1,1 +1,1 @@
-By utilizing [region zones](../Regions/Region_Zones), we can display blocks before or after a region.
+By utilizing [region zones](../06_Regions/Region_Zones.md), we can display blocks before or after a region.

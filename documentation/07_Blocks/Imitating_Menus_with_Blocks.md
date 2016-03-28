@@ -1,6 +1,6 @@
 
 
-Although not technically a [menu](../Menus), *blocks* can be used to create what appear to be menus for your users. As it stands, blocks are much more flexible than menus and can be used to create some very interesting UX widgets.
+Although not technically a [menu](../08_Menus), *blocks* can be used to create what appear to be menus for your users. As it stands, blocks are much more flexible than menus and can be used to create some very interesting UX widgets.
 
 ![A Menu built with a Block](http://drupalgap.org/sites/default/files/block-menu-widget.png)
 
@@ -33,4 +33,4 @@ var content = '<div ' + drupalgap_attributes(attrs) + '>' +
 '</div>';
 ```
 
-See also [menus with dynamic links](../Menus/Menus_with_Dynamic_Links).
+See also [menus with dynamic links](../08_Menus/Menus_with_Dynamic_Links.md).

@@ -4,7 +4,7 @@ By utilizing the `_prefix` or `_suffix` object variable on a region's settings, 
 
 ## 1. Create a custom block
 
-[Learn more](../07_Blocks/Create_a_Custom_Block) about creating custom blocks.
+[Learn more](../07_Blocks/01_Create_a_Custom_Block.md) about creating custom blocks.
 
 ## 2. Add the block to the settings.js file
 
