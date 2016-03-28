@@ -70,5 +70,22 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/katzer/cordova-plugin-hidden-statusbar-overlay",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

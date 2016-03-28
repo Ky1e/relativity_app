@@ -33,6 +33,12 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ky1e.relativity"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ky1e.relativity"
+        },
+        "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
+            "PACKAGE_NAME": "com.ky1e.relativity"
         }
     },
     "dependent_plugins": {}
