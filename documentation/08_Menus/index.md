@@ -4,7 +4,7 @@ For example, DrupalGap comes packaged with a menu called `user_menu_anonymous`, 
 
 ![DrupalGap Sample Page](http://drupalgap.org/sites/default/files/hello-app-world.png)
 
-The `user_menu_anonymous` block would of course want to be seen only by anonymous users. We can control when to show or hide the menu's block using [visibility rules](../Blocks/Block_Visibility_Rules). 
+The `user_menu_anonymous` block would of course want to be seen only by anonymous users. We can control when to show or hide the menu's block using [visibility rules](../07_Blocks/Block_Visibility_Rules.md). 
 
 DrupalGap comes packaged with a few system menus:
 

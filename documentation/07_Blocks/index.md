@@ -1,6 +1,6 @@
 
 
-Blocks are located within regions, within a [theme](../05_Themes). The content displayed inside the block is decided by whomever created the block.
+Blocks are located within regions, within a [theme](../05_Themes/index.md). The content displayed inside the block is decided by whomever created the block.
 
 ## System Blocks
 

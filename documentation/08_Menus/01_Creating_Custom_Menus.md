@@ -47,7 +47,7 @@ drupalgap.settings.blocks.my_theme = {
 };
 ```
 
-[More information on adding blocks to regions](../Blocks/Adding_Block_Region)
+[More information on adding blocks to regions](../07_Blocks/Adding_Block_Region.md)
 
 ## Creating Pages for the Menu Links
 
@@ -85,4 +85,4 @@ function my_module_beverage_page() {
 }
 ```
 
-[Learn More About Pages](../Pages)
+[Learn More About Pages](../09_Pages/index.md)
