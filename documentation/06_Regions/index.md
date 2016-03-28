@@ -1,1 +1,1 @@
-Learn more about regions by reading about [themes](Themes).
+Learn more about regions by reading about [themes](/documenattion/05_Themes).

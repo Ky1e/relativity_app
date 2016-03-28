@@ -19,4 +19,4 @@ Adding more than one custom module just repeat the above line and change the `my
 
 **4.** Add custom code to the module's javascript file.
 
-For example, try [creating a custom page]() in the App using `hook_menu()`.
+For example, try [creating a custom page](/documentation/09_Pages/01_Creating_a_Custom_Page.md) in the App using `hook_menu()`.

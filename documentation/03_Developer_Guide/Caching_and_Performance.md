@@ -1,6 +1,6 @@
 ## Page Caching
 
-When a user visits a page in a DrupalGap mobile application, the output of the page is cached (i.e. it will stay in the DOM), that way subsequent visits to the page respond quickly (because the page is already in the DOM). Related info: [Reloading Pages](../Pages/Reloading_Pages)
+When a user visits a page in a DrupalGap mobile application, the output of the page is cached (i.e. it will stay in the DOM), that way subsequent visits to the page respond quickly (because the page is already in the DOM). Related info: [Reloading Pages](/documentation/09_Pages/Reloading_Pages.md)
 
 ## Entity Caching
 

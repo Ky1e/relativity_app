@@ -56,7 +56,7 @@ https://developer.chrome.com/devtools/docs/remote-debugging
 
 ## drupalgap_set_message()
 
-View the [Messages](../Widgets/Messages) page for information about displaying informative messages to users/developers.
+View the [Messages](/documentation/11_Widgets/Messages.md) page for information about displaying informative messages to users/developers.
 
 ## settings.js
 
