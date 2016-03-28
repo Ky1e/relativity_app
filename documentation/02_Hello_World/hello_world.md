@@ -53,4 +53,4 @@ Now when we run the app, we'll have a "Hello World" button widget that will say 
 
 That's it, you've now got the basic tools to build a custom mobile application for a Drupal website!
 
-Next, try placing an additional [widget](Widgets) or two on your page or head back to the getting started guide for more topics and features within DrupalGap.
+Next, try placing an additional [widget](11_Widgets) or two on your page or head back to the getting started guide for more topics and features within DrupalGap.
