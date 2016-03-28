@@ -74,7 +74,7 @@ Below are screen shots of various supported widgets. To see example code for a p
 
 ## Table Widget
 
-[Click here](Widgets/Table_Widget) to see the Table Widget docs.
+[Click here](11_Widgets/Table_Widget) to see the Table Widget docs.
 
 ## Text Widget
 
