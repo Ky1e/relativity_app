@@ -4,4 +4,4 @@ The Relativity Mobile Application uses an open source mobile application develop
 Drupal websites. This project utilizes Drupal, PhoneGap (Cordova), jQueryMobile
 and jDrupal.
 
-Let's get started with a simple [Hello World](documentation/hello_world) [Hello World](master/documentation/hello_world) page.
+Let's get started with a simple [Hello World](blob/master/documentation/hello_world.md) [Hello World](master/documentation/hello_world.md) page.
