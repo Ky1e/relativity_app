@@ -25,7 +25,7 @@ DrupalGap generates the HTML output for the page, which utilizes jQuery Mobile t
 
   <div data-role="content"><p>Hello App World!</p></div>
 
-  <div data-role="footer"><h2>Powered by: DrupalGap</h2></div>
+  <div data-role="footer"><h2>Powered by: Relativity</h2></div>
 
 </div>
 ```
