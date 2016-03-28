@@ -25,6 +25,7 @@
 # Directories #
 platforms
 
+
 # Logs and databases #
 ######################
 *.log

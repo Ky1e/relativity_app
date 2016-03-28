@@ -123,7 +123,7 @@ drupalgap.settings.front = 'front_page';
 drupalgap.settings.theme = 'relativity';
 
 // Logo
-drupalgap.settings.logo = 'themes/easystreet3/images/drupalgap.jpg';
+drupalgap.settings.logo = 'themes/relativity/images/logo.png';
 
 // Offline Warning Message. Set to false to hide message.
 drupalgap.settings.offline_message = 'No connection found!';
@@ -261,19 +261,32 @@ drupalgap.settings.blocks = {}; // Do not remove this line.
 // The relativity_theme blocks.
 drupalgap.settings.blocks.relativity = {
   header: {
-    title: {}
+    user_menu_anonymous: {
+      roles: {
+        value: ['anonymous user'],
+        mode: 'include',
+      }
+    },
+    user_menu_authenticated: {
+      roles: {
+        value: ['authenticated user'],
+        mode: 'include',
+      }
+    },
+    main_menu: { }
   },
   sub_header: {
-    user_menu_anonymous: {}
+    title: { }
   },
   navigation: {
-    main_menu: {}
+    primary_local_tasks: { }
   },
   content: {
-    main: {}
+    messages: { },
+    main: { }
   },
   footer: {
-    powered_by: {}
+    powered_by: { }
   }
 };
 
@@ -292,6 +305,7 @@ drupalgap.settings.menus.regions['header'] = {
         popup_delta: 'main_menu',
         attributes: {
           'class': 'ui-btn-left',
+          'data-iconpos': 'notext',
           'data-icon': 'bars'
         }
       }
@@ -302,6 +316,7 @@ drupalgap.settings.menus.regions['header'] = {
       options: {
         attributes: {
           'data-icon': 'home',
+          'data-iconpos': 'notext',
           'class': 'ui-btn-left'
         }
       },
@@ -351,6 +366,7 @@ drupalgap.settings.menus.regions['footer'] = {
       options: {
         attributes: {
           'data-icon': 'back',
+          'data-iconpos': 'notext',
           'class': 'ui-btn-right',
           'onclick': 'javascript:drupalgap_back();'
         }

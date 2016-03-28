@@ -7,7 +7,7 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.ky1e.relativity"
         },
         "cordova-plugin-console": {
@@ -22,16 +22,16 @@
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.ky1e.relativity"
         },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ky1e.relativity"
+        },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "com.ky1e.relativity"
         },
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "com.ky1e.relativity"
         },
-        "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.ky1e.relativity"
-        },
-        "cordova-plugin-geolocation": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ky1e.relativity"
         }
     },

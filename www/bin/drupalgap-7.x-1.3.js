@@ -11310,7 +11310,7 @@ function system_block_view(delta) {
         break;
       case 'powered_by':
         return '<p style="text-align: center;">' + t('Powered by') + ': ' +
-          l('DrupalGap', 'http://www.drupalgap.org', {InAppBrowser: true}) +
+          l('Relativity', 'http://jay-epstein.com/relativity/overview', {InAppBrowser: true}) +
         '</p>';
         break;
       case 'help':
