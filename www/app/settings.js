@@ -343,7 +343,7 @@ drupalgap.settings.menus.regions['header'] = {
   ]
 };
 
-// Footer Region Links
+/* Footer Region Links */
 drupalgap.settings.menus.regions['footer'] = {
   links: [
     /* Back Button */

@@ -3,7 +3,7 @@
  **************/
 
 // Uncomment to clear the app's local storage cache each time the app loads.
-//window.localStorage.clear();
+window.localStorage.clear();
 
 // Set to true to see console.log() messages. Set to false when publishing app.
 Drupal.settings.debug = true;
