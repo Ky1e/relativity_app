@@ -1,10 +1,12 @@
-Welcome to the DrupalGap "Hello World". By completing this guide, you'll be ready to build a mobile application for your Drupal website. Along the way, be sure to visit the [support](http://drupalgap.org/support) and [troubleshoot](Install/Troubleshoot) pages if you run into any problems.
+I am a firm believer in always starting a new project by completing this a "Hello World" because it is familiar and will
+ give you an basic understanding of how a project is constructed After completing this "Hello World" you'll be ready to 
+ start building a mobile application for your Drupal website.
 
 ## Create the "Hello World" App Page
 
-1. Navigate to www/app/modules/custom and create a new folder called my_module. 
-2. Create a new Javascript file and name it my_module.js.
-3. Place this code into the my_module JavaScript file:
+### 1. Navigate to www/app/modules/custom and create a new folder called my_module. 
+### 2. Create a new Javascript file and name it my_module.js.
+### 3. Place this code into the my_module JavaScript file:
 
 ```
 /**
@@ -35,7 +37,7 @@ function my_module_hello_world_page() {
 }
 ```
 
-4. Set the "Hello World" page as the App's Front Page
+### 4. Set the "Hello World" page as the App's Front Page
 
 Open the `www/app/settings.js` file and set the app's front page path:
 
@@ -43,7 +45,7 @@ Open the `www/app/settings.js` file and set the app's front page path:
 drupalgap.settings.front = 'hello_world';
 ```
 
-5. Run the App by typing the following command in terminal
+### 5. Run the App by typing the following command in terminal
 
 ```
 cordova build && run
