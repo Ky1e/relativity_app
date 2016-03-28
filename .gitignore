@@ -22,6 +22,9 @@
 !sites/all/modules/custom/mobile-application/drupalgap-app.zip
 *.tgz
 
+# Directories #
+platforms
+
 # Logs and databases #
 ######################
 *.log
@@ -45,4 +48,3 @@ Thumbs.db
 .sass-cache
 .idea
 .DS_Store
-.gitignore
