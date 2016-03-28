@@ -4,7 +4,9 @@ I am a firm believer in always starting a new project by completing this a "Hell
 
 ### 1. Create the "Hello World" App Page
 Navigate to www/app/modules/custom and create a new folder called my_module. 
+
 Create a new Javascript file and name it my_module.js.
+
 Place this code into the my_module JavaScript file:
 
 ```
