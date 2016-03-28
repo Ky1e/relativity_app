@@ -1,5 +1,5 @@
 I am a firm believer in always starting a new project by completing a "Hello World" because it is familiar and will
- give you an basic understanding of how a project is constructed After completing this "Hello World" you'll be ready to 
+ give you an basic understanding of how a project is constructed. After completing this "Hello World" you'll be ready to 
  start building a mobile application for your Drupal website.
    
 ### 1. Create the "Hello World" App Page
