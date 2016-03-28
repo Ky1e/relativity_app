@@ -1,6 +1,6 @@
 > New to DrupalGap Forms?
 
-First, try [creating a custom form](Forms/Creating_a_Custom_Form).
+First, try [creating a custom form](/documentation/13_Forms/01_Creating_a_Custom_Form.md).
 
 ## Handling the Enter Key
 
