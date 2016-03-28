@@ -2,10 +2,11 @@ I am a firm believer in always starting a new project by completing a "Hello Wor
  give you an basic understanding of how a project is constructed After completing this "Hello World" you'll be ready to 
  start building a mobile application for your Drupal website.
    
-1. Create the "Hello World" App Page
+### 1. Create the "Hello World" App Page
    * Navigate to www/app/modules/custom and create a new folder called my_module. 
    * Create a new Javascript file and name it my_module.js.
    * Place this code into the my_module JavaScript file:
+   
 ```
 /**
  * Implements hook_menu().
@@ -35,17 +36,15 @@ function my_module_hello_world_page() {
 }
 ```
 
-2. Set the "Hello World" page as the App's Front Page
+### 2. Set the "Hello World" page as the App's Front Page
    * Open the `www/app/settings.js` file and set the app's front page path:
-
 ```
 drupalgap.settings.front = 'hello_world';
 ```
 
-3. Run the App by typing the following command in terminal:
-
+### 3. Run the App by typing the following command in terminal:
 ```
-cordova build && run
+$ cordova build && run
 ```
 
 Now when we run the app, we'll have a "Hello World" button widget that will say "Hi" when clicked:
