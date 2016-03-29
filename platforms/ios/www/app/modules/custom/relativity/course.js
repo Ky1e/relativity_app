@@ -8,7 +8,7 @@
 
 function course_menu() {
     var items = {};
-    items['course_articles_page'] = {
+    items['course'] = {
         title: 'Courses',
         page_callback: 'course_articles_page'
     };

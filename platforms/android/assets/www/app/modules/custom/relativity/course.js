@@ -8,7 +8,7 @@
 
 function course_menu() {
     var items = {};
-    items['course_articles_page'] = {
+    items['course'] = {
         title: 'Courses',
         page_callback: 'course_articles_page'
     };
@@ -24,7 +24,7 @@ function course_articles_page() {
         content['course_list'] = {
             theme: 'view',
             format: 'ul',
-            path: 'jay', /* the path to the view in Drupal */
+            path: 'my-courses', /* the path to the view in Drupal */
             row_callback: 'course_articles_list_row',
             empty_callback: 'course_articles_list_empty',
             attributes: {

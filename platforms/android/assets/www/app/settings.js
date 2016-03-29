@@ -160,7 +160,7 @@ drupalgap.settings.loader = {
 /** Custom Modules - www/app/modules/custom **/
 //Drupal.modules.custom['my_module'] = {};
 Drupal.modules.custom['relativity'] = {};
-Drupal.modules.custom['course']
+Drupal.modules.custom['course'] = {};
 
 /***************************************|
  * Menus - http://drupalgap.org/node/85 |
@@ -235,7 +235,7 @@ drupalgap.settings.menus['main_menu'] = {
     },
     {
       title:'Courses',
-      path:'course_articles_page',
+      path:'course',
       options:{
         attributes:{
           'data-icon':'grid'

@@ -235,7 +235,7 @@ drupalgap.settings.menus['main_menu'] = {
     },
     {
       title:'Courses',
-      path:'course_articles_page',
+      path:'course',
       options:{
         attributes:{
           'data-icon':'grid'
