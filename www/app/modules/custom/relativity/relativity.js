@@ -1,7 +1,3 @@
-/**
- * Created by Kyle on 3/10/16.
- */
-
 /* Implements hook_menu() which creates the front page of the app. */
 function relativity_menu() {
   try {

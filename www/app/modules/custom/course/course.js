@@ -1,8 +1,4 @@
 /**
- * Created by Kyle on 3/28/16.
- */
-
-/**
  * Implements hook_menu().
  */
 
