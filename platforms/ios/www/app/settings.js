@@ -384,7 +384,7 @@ drupalgap.settings.menus.regions['footer'] = {
  * Camera |
  **********/
 drupalgap.settings.camera = {
-  quality: 50
+  quality: 90
 };
 
 /***********************|
