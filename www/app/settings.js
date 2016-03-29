@@ -161,6 +161,7 @@ drupalgap.settings.loader = {
 //Drupal.modules.custom['my_module'] = {};
 Drupal.modules.custom['relativity'] = {};
 Drupal.modules.custom['course'] = {};
+Drupal.modules.custom['search'] = {};
 
 /***************************************|
  * Menus - http://drupalgap.org/node/85 |
@@ -243,8 +244,8 @@ drupalgap.settings.menus['main_menu'] = {
       }
     },
     {
-      title:'Users',
-      path:'user-listing',
+      title:'Search',
+      path:'search',
       options:{
         attributes:{
           'data-icon':'info'
@@ -290,6 +291,8 @@ drupalgap.settings.blocks.relativity = {
     powered_by: { }
   }
 };
+
+
 
 /****************************************************|
  * Region Menu Links - http://drupalgap.org/node/173 |

@@ -38,6 +38,7 @@ function course_articles_page() {
 function course_articles_list_row(view, row) {
     try {
         return l(t(row.title), 'node/' + row.nid);
+
     }
     catch (error) { console.log('course_articles_list_row - ' + error); }
 }
