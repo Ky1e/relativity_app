@@ -23,8 +23,8 @@ function course_articles_page() {
         var content = {};
         content['course_list'] = {
             theme: 'view',
-            format: 'ul',
-            path: 'my-courses', /* the path to the view in Drupal */
+            format: 'unformatted_list',
+            path: 'json-out/courses', /* the path to the view in Drupal */
             row_callback: 'course_articles_list_row',
             empty_callback: 'course_articles_list_empty',
             attributes: {
