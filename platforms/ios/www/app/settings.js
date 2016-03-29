@@ -15,7 +15,7 @@ Drupal.settings.debug = true;
 /* DRUPAL PATHS */
  
 // Site Path (do not use a trailing slash)
-Drupal.settings.site_path = 'http://dev-phsc-course-schedule.pantheonsite.io'; // e.g. http://www.example.com
+Drupal.settings.site_path = 'http://dev-relativity.pantheonsite.io'; // e.g. http://www.example.com
 
 // Default Services Endpoint Path
 Drupal.settings.endpoint = 'drupalgap';
@@ -160,6 +160,7 @@ drupalgap.settings.loader = {
 /** Custom Modules - www/app/modules/custom **/
 //Drupal.modules.custom['my_module'] = {};
 Drupal.modules.custom['relativity'] = {};
+Drupal.modules.custom['course'] = {};
 
 /***************************************|
  * Menus - http://drupalgap.org/node/85 |
@@ -233,8 +234,8 @@ drupalgap.settings.menus['main_menu'] = {
       }
     },
     {
-      title:'Taxonomy',
-      path:'taxonomy/vocabularies',
+      title:'Courses',
+      path:'course_articles_page',
       options:{
         attributes:{
           'data-icon':'grid'
