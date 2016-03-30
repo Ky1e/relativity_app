@@ -10,18 +10,23 @@ function search_menu() {
     return items;
 }
 
-function search_autocomplete_page() {
-    try {
-        var content = {};
-        content.search = {
-            theme: 'autocomplete',
-            remote: true,
-            path: 'json-out',
-            value: 'nid',
-            label: 'title',
-            filter: '%'
-        };
-        return content;
+    /**
+     * My autocomplete page callback.
+     */
+    function search_autocomplete_page() {
+        try {
+            var content = {};
+            content.search = {
+                theme: 'autocomplete',
+                remote: true,
+                custom: true,
+                path: 'json-out',
+                value: 'nid',
+                label: 'title',
+                filter: '%',
+                params: 'limit=5'
+            };
+            return content;
+        }
+        catch (error) { console.log('search_autocomplete_page - ' + error); }
     }
-    catch (error) { console.log('search_autocomplete_page - ' + error); }
-}
