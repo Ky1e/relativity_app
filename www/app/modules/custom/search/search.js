@@ -16,10 +16,10 @@ function search_autocomplete_page() {
         content.search = {
             theme: 'autocomplete',
             remote: true,
-            path: 'search-autocomplete',
+            path: 'json-out',
             value: 'nid',
             label: 'title',
-            filter: 'title'
+            filter: '%'
         };
         return content;
     }

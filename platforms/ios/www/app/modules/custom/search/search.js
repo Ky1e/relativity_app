@@ -19,9 +19,35 @@ function search_autocomplete_page() {
             path: 'search-autocomplete',
             value: 'nid',
             label: 'title',
-            filter: 'title'
+            filter: 'title',
+            row_callback: 'course_articles_list_row',
+            empty_callback: 'course_articles_list_empty',
+            attributes: {
+                id: 'course_list_view'
+            }
         };
-        return content;
+    return content;
+}
+    catch (error) { console.log('course_articles_page - ' + error); }
+}
+
+/**
+ * The row callback to render a single row.
+ */
+function course_articles_list_row(view, row) {
+    try {
+        return l(t(row.title), 'node/' + row.nid);
+
     }
-    catch (error) { console.log('search_autocomplete_page - ' + error); }
+    catch (error) { console.log('course_articles_list_row - ' + error); }
+}
+
+/**
+ *
+ */
+function course_articles_list_empty(view) {
+    try {
+        return t('Sorry, no courses were found.');
+    }
+    catch (error) { console.log('course_articles_list_empty - ' + error); }
 }
