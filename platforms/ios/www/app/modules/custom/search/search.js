@@ -16,6 +16,11 @@ function search_menu() {
     function search_autocomplete_page() {
         try {
             var content = {};
+            content.welcome = {
+            	markup: '<p style="text-align: center;">' +
+            	t('Enter a course name you want to search!') +
+            	'</p>'
+   			};
             content.search = {
                 theme: 'autocomplete',
                 remote: true,
@@ -23,8 +28,7 @@ function search_menu() {
                 path: 'json-out',
                 value: 'nid',
                 label: 'title',
-                filter: '%',
-                params: 'limit=5'
+                filter: 'title',
             };
             return content;
         }

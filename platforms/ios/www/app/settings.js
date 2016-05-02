@@ -123,7 +123,7 @@ drupalgap.settings.front = 'front_page';
 drupalgap.settings.theme = 'relativity';
 
 // Logo
-drupalgap.settings.logo = 'themes/relativity/images/logo.png';
+drupalgap.settings.logo = 'logo.png';
 
 // Offline Warning Message. Set to false to hide message.
 drupalgap.settings.offline_message = 'No connection found!';

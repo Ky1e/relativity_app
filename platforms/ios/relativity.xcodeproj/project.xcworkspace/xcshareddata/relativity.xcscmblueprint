@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FAD194647C6D71E375585A4C0B86F3E73DF6449C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A0F21012E2443711957094F74843749B78CE812F" : 0,
+    "FAD194647C6D71E375585A4C0B86F3E73DF6449C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "98B3134A-2AD9-4816-8209-89ABED0A92A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A0F21012E2443711957094F74843749B78CE812F" : "",
+    "FAD194647C6D71E375585A4C0B86F3E73DF6449C" : "relativity_app\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "relativity",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/relativity.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn-634.devcloud.hosting.acquia.com:phccweb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0F21012E2443711957094F74843749B78CE812F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ky1e\/relativity_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FAD194647C6D71E375585A4C0B86F3E73DF6449C"
+    }
+  ]
+}

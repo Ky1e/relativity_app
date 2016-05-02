@@ -17,8 +17,35 @@ function relativity_menu() {
 function relativity_front_page() {
   try {
     var content = {};
-    content['my_intro_text'] = {
-      markup: 'Welcome to Relativity Mobile!'
+    content.site_info = {
+      markup: '<h4 style="text-align: center;">' +
+      Drupal.settings.site_path +
+      '</h4>'
+    };
+    content.welcome = {
+      markup: '<h2 style="text-align: center;">' +
+      t('Welcome to Relativity Mobile') +
+      '</h2>' +
+      '<p style="text-align: center;">' +
+      t('The mobile solution for Relativity!') +
+      '</p>'
+    };
+    // content.logo = {
+    //   markup: '<center>' +
+    //   theme('image', {path: drupalgap.settings.logo}) +
+    //   '</center>'
+    // };
+    content.get_started = {
+      theme: 'button_link',
+      text: t('Getting Started Guide'),
+      path: 'http://www.github.com/ky1e/relativity_app',
+      options: {InAppBrowser: true}
+    };
+    content.support = {
+      theme: 'button_link',
+      text: t('Support'),
+      path: '#',
+      options: {InAppBrowser: true}
     };
     return content;
   }//throws error if the content is not loaded

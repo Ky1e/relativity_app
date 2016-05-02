@@ -21,10 +21,15 @@ function course_menu() {
 function course_articles_page() {
     try {
         var content = {};
+        content.welcome = {
+            	markup: '<p style="text-align: center;">' +
+            	t('Select a course for more information') +
+            	'</p>'
+   			};
         content['course_list'] = {
             theme: 'view',
             format: 'unformatted_list',
-            path: 'json-out/courses', /* the path to the view in Drupal */
+            path: 'json-out/course', /* the path to the view in Drupal */
             row_callback: 'course_articles_list_row',
             empty_callback: 'course_articles_list_empty',
             attributes: {
@@ -41,7 +46,7 @@ function course_articles_page() {
  */
 function course_articles_list_row(view, row) {
     try {
-        return l(t(row.title), 'node/' + row.nid);
+        return l(t(row.title), + '<br>' + 'node/' + row.nid);
     }
     catch (error) { console.log('course_articles_list_row - ' + error); }
 }
