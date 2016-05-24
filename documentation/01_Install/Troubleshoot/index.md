@@ -1,4 +1,4 @@
-Other troubleshooting topics are listed on d.o.:
+Other troubleshooting topics are listed on drupal.org:
 
 https://drupal.org/node/2015065
 
